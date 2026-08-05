@@ -8,7 +8,7 @@ from rich.table import Table
 
 from guidekit.builders.markdown import render_places
 from guidekit.builders.pandoc import build_with_pandoc
-from guidekit.commands import new_place
+from guidekit.commands import new_content, new_place
 from guidekit.services.chapter_service import create_chapter
 from guidekit.services.place_service import load_places
 
@@ -81,3 +81,14 @@ def serve() -> None:
     if not mkdocs:
         raise typer.BadParameter("MkDocs is not installed or not on PATH.")
     subprocess.run([mkdocs, "serve"], check=True)
+
+
+@app.command("new")
+def new_content_command(
+    content_type: str = typer.Argument(
+        ...,
+        help="Content type: beach, restaurant, viewpoint, village, museum",
+    ),
+) -> None:
+    """Create a new content item."""
+    new_content.run(content_type)

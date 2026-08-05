@@ -1,0 +1,20 @@
+name: Konnos Bay
+type: beach
+region: Cape Greco
+coordinates:
+  latitude: 34.9838
+  longitude: 34.0816
+ratings:
+  family: 5
+  snorkeling: 0
+  photography: 5
+  parking: 4
+features:
+  snorkeling: true
+  turtles: false
+  cliff_views: true
+  underwater_sculptures: false
+  sunrise: true
+best_time: ''
+estimated_visit: ''
+status: draft
