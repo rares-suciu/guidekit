@@ -1,5 +1,6 @@
 from pathlib import Path
 
+from guidekit.builders.markdown import render_places
 from guidekit.services.place_service import load_places
 
 
@@ -30,47 +31,14 @@ def build_guide(
 
     output_dir.mkdir(parents=True, exist_ok=True)
 
-    generated = []
+    output_file = output_dir / "places.md"
 
-    index = output_dir / "index.md"
-    index.write_text(
-        f"# GuideKit Generated Guide\n\nTotal places: {len(places)}\n",
-        encoding="utf-8",
+    render_places(
+        places,
+        Path("templates"),
+        output_file,
     )
-    generated.append(index)
 
-    by_type: dict[str, list] = {}
-
-    for place in places:
-        by_type.setdefault(place.type, []).append(place)
-
-    for place_type, items in by_type.items():
-        filename = output_dir / f"{pluralize(place_type)}.md"
-
-        content = [
-            f"# {place_type.title()}s\n",
-            "",
-        ]
-
-        for place in items:
-            content.extend(
-                [
-                    f"## {place.name}",
-                    "",
-                    f"Region: {place.region}",
-                    "",
-                    f"Coordinates: {place.coordinates.latitude}, {place.coordinates.longitude}",
-                    "",
-                    "---",
-                    "",
-                ]
-            )
-
-        filename.write_text(
-            "\n".join(content),
-            encoding="utf-8",
-        )
-
-        generated.append(filename)
-
-    return generated
+    return [
+        output_dir / "places.md",
+    ]

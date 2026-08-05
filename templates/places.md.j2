@@ -1,20 +1,41 @@
 # Places
+
 {% for place in places %}
+
 ## {{ place.name }}
 
 **Type:** {{ place.type }}  
 **Region:** {{ place.region }}  
-**Best time:** {{ place.best_time or "Not set" }}  
-**Estimated visit:** {{ place.estimated_visit or "Not set" }}
 
-| Category | Rating |
+### Ratings
+
+| Category | Score |
 |---|---|
 | Family | {{ place.ratings.family | stars }} |
 | Snorkeling | {{ place.ratings.snorkeling | stars }} |
 | Photography | {{ place.ratings.photography | stars }} |
 | Parking | {{ place.ratings.parking | stars }} |
 
-**Coordinates:** {{ place.coordinates.latitude }}, {{ place.coordinates.longitude }}
+### Features
+
+{% for key, enabled in place.features.items() if enabled %}
+- {{ key.replace("_", " ").title() }}
+{% endfor %}
+
+### Visit Information
+
+**Best time:** {{ place.best_time or "Not specified" }}  
+
+**Duration:** {{ place.estimated_visit or "Not specified" }}
+
+### Location
+
+Coordinates:
+{{ place.coordinates.latitude }}, {{ place.coordinates.longitude }}
+
+
+[Open in Google Maps]({{ place | maps_link }})
 
 ---
+
 {% endfor %}

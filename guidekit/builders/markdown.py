@@ -9,15 +9,34 @@ def stars(value: int) -> str:
     return "★" * value + "☆" * (5 - value)
 
 
-def render_places(places: list[Place], template_dir: Path, output_file: Path) -> Path:
+def maps_link(place: Place) -> str:
+    return (
+        f"https://www.google.com/maps?q={place.coordinates.latitude},{place.coordinates.longitude}"
+    )
+
+
+def render_places(
+    places: list[Place],
+    template_dir: Path,
+    output_file: Path,
+) -> Path:
     env = Environment(
         loader=FileSystemLoader(template_dir),
         autoescape=select_autoescape(default=False),
         trim_blocks=True,
         lstrip_blocks=True,
     )
+
     env.filters["stars"] = stars
+    env.filters["maps_link"] = maps_link
+
     template = env.get_template("places.md.j2")
+
     output_file.parent.mkdir(parents=True, exist_ok=True)
-    output_file.write_text(template.render(places=places), encoding="utf-8")
+
+    output_file.write_text(
+        template.render(places=places),
+        encoding="utf-8",
+    )
+
     return output_file
