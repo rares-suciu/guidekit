@@ -1,0 +1,25 @@
+name: "Nissi Beach"
+type: beach
+region: "Ayia Napa"
+
+coordinates:
+  latitude: 34.9892
+  longitude: 33.9677
+
+ratings:
+  family: 5
+  snorkeling: 3
+  photography: 5
+  parking: 5
+
+features:
+  sandy_beach: true
+  shallow_water: true
+  turquoise_water: true
+  sunset: true
+  restaurants_nearby: true
+
+best_time: "08:30–11:00"
+estimated_visit: "3–5 hours"
+
+status: draft

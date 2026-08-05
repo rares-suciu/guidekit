@@ -11,9 +11,11 @@ from guidekit.builders.pandoc import build_with_pandoc
 from guidekit.commands import new_content, new_place
 from guidekit.services.chapter_service import create_chapter
 from guidekit.services.guide_builder import build_guide
+from guidekit.services.itinerary_builder import build_itineraries
 from guidekit.services.place_service import load_places
 from guidekit.services.search_service import search_places
 from guidekit.services.stats_service import calculate_stats
+from guidekit.services.validation_service import validate_places
 
 app = typer.Typer(no_args_is_help=True, help="Build static guides from Markdown and YAML.")
 console = Console()
@@ -144,6 +146,29 @@ def build(
     """Generate guide pages from content data."""
     files = build_guide(places_dir, output_dir)
 
+    itinerary_file = build_itineraries(
+        Path("data/itineraries"),
+        output_dir / "itineraries.md",
+    )
+
+    files.append(itinerary_file)
+
     console.print("[green]Generated:[/green]")
     for file in files:
         console.print(f"  {file}")
+
+
+@app.command("validate-content")
+def validate_content(
+    places_dir: Path = Path("data/places"),
+) -> None:
+    """Validate content quality."""
+    warnings = validate_places(places_dir)
+
+    if not warnings:
+        console.print("[green]No warnings found.[/green]")
+        return
+
+    console.print("[yellow]Content warnings:[/yellow]")
+    for warning in warnings:
+        console.print(f"- {warning}")

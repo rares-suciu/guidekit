@@ -1,0 +1,25 @@
+name: "Lara Beach"
+type: beach
+region: "Akamas Peninsula"
+
+coordinates:
+  latitude: 34.9617
+  longitude: 32.2919
+
+ratings:
+  family: 4
+  snorkeling: 2
+  photography: 5
+  parking: 2
+
+features:
+  turtle_nesting: true
+  wild_nature: true
+  remote_location: true
+  off_road_access: true
+  photography: true
+
+best_time: "08:00–12:00"
+estimated_visit: "Half day"
+
+status: draft

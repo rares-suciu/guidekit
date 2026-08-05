@@ -1,0 +1,25 @@
+name: "Coral Bay"
+type: beach
+region: "Peyia, Paphos"
+
+coordinates:
+  latitude: 34.8517
+  longitude: 32.3666
+
+ratings:
+  family: 5
+  snorkeling: 3
+  photography: 4
+  parking: 5
+
+features:
+  sandy_beach: true
+  shallow_water: true
+  family_friendly: true
+  restaurants_nearby: true
+  sunset: true
+
+best_time: "09:00–12:00"
+estimated_visit: "2–4 hours"
+
+status: draft

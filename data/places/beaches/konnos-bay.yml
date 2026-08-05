@@ -6,7 +6,7 @@ coordinates:
   longitude: 34.0816
 ratings:
   family: 5
-  snorkeling: 0
+  snorkeling: 5
   photography: 5
   parking: 4
 features:
@@ -15,6 +15,6 @@ features:
   cliff_views: true
   underwater_sculptures: false
   sunrise: true
-best_time: ''
-estimated_visit: ''
+best_time: "08:30–11:30"
+estimated_visit: "3–5 hours"
 status: draft

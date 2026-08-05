@@ -1,0 +1,25 @@
+name: "Blue Lagoon"
+type: beach
+region: "Akamas Peninsula"
+
+coordinates:
+  latitude: 35.0568
+  longitude: 32.3367
+
+ratings:
+  family: 4
+  snorkeling: 5
+  photography: 5
+  parking: 3
+
+features:
+  snorkeling: true
+  crystal_clear_water: true
+  boat_trip_destination: true
+  swimming: true
+  photography: true
+
+best_time: "09:00–13:00"
+estimated_visit: "Half day"
+
+status: draft

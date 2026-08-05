@@ -1,0 +1,26 @@
+name: "Cape Greco National Park"
+type: viewpoint
+region: "Cape Greco"
+
+coordinates:
+  latitude: 34.9686
+  longitude: 34.0696
+
+ratings:
+  family: 5
+  snorkeling: 4
+  photography: 5
+  parking: 4
+
+features:
+  cliff_views: true
+  hiking: true
+  sunrise: true
+  nature: true
+  photography: true
+  swimming_spots: true
+
+best_time: "07:30–10:30"
+estimated_visit: "3–5 hours"
+
+status: draft

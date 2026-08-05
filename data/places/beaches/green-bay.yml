@@ -5,14 +5,14 @@ coordinates:
   latitude: 34.9955
   longitude: 34.0734
 ratings:
-  family: 4
+  family: 5
   snorkeling: 5
-  photography: 4
+  photography: 5
   parking: 4
+best_time: "08:30–11:30"
+estimated_visit: "3–5 hours"
 features:
   snorkeling: true
   turtles: true
   underwater_sculptures: true
-best_time: ''
-estimated_visit: ''
 status: draft

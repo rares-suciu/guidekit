@@ -11,7 +11,7 @@ def load_places(directory: Path) -> list[Place]:
     errors: list[str] = []
     if not directory.exists():
         return places
-    for path in sorted(directory.glob("*.yml")):
+    for path in sorted(directory.rglob("*.yml")):
         try:
             places.append(Place.model_validate(read_yaml(path)))
         except PydanticValidationError as exc:

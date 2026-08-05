@@ -1,0 +1,25 @@
+name: "Cape Greco Sea Caves"
+type: viewpoint
+region: "Cape Greco"
+
+coordinates:
+  latitude: 34.9648
+  longitude: 34.0618
+
+ratings:
+  family: 4
+  snorkeling: 4
+  photography: 5
+  parking: 4
+
+features:
+  cliff_views: true
+  sea_caves: true
+  photography: true
+  swimming_spots: true
+  sunset: true
+
+best_time: "16:00–19:00"
+estimated_visit: "1–2 hours"
+
+status: draft

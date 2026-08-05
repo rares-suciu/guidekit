@@ -1,0 +1,25 @@
+name: "Bridge of Love"
+type: viewpoint
+region: "Ayia Napa"
+
+coordinates:
+  latitude: 34.9889
+  longitude: 34.0184
+
+ratings:
+  family: 4
+  snorkeling: 2
+  photography: 5
+  parking: 4
+
+features:
+  cliff_views: true
+  photography: true
+  sunset: true
+  swimming_spots: true
+  romantic_spot: true
+
+best_time: "17:00–19:30"
+estimated_visit: "1 hour"
+
+status: draft
