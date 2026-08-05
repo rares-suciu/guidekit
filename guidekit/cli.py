@@ -10,6 +10,7 @@ from guidekit.builders.markdown import render_places
 from guidekit.builders.pandoc import build_with_pandoc
 from guidekit.commands import new_content, new_place
 from guidekit.services.chapter_service import create_chapter
+from guidekit.services.guide_builder import build_guide
 from guidekit.services.place_service import load_places
 from guidekit.services.search_service import search_places
 from guidekit.services.stats_service import calculate_stats
@@ -133,3 +134,16 @@ def stats(
     console.print("\n[bold]Top rated:[/bold]")
     for place in result["top_rated"]:
         console.print(f"  {place.name}")
+
+
+@app.command("build")
+def build(
+    places_dir: Path = Path("data/places"),
+    output_dir: Path = Path("build"),
+) -> None:
+    """Generate guide pages from content data."""
+    files = build_guide(places_dir, output_dir)
+
+    console.print("[green]Generated:[/green]")
+    for file in files:
+        console.print(f"  {file}")
