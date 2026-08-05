@@ -1,7 +1,10 @@
 from pathlib import Path
+
 from pydantic import ValidationError as PydanticValidationError
+
 from guidekit.models import Place
 from guidekit.utils.yaml_io import read_yaml
+
 
 def load_places(directory: Path) -> list[Place]:
     places: list[Place] = []

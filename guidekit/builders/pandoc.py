@@ -1,5 +1,7 @@
+import shutil
+import subprocess
 from pathlib import Path
-import shutil, subprocess
+
 
 def build_with_pandoc(chapters_dir: Path, output_file: Path, pdf_engine: str | None = None) -> Path:
     pandoc = shutil.which("pandoc")
