@@ -8,11 +8,18 @@ from rich.table import Table
 
 from guidekit.builders.markdown import render_places
 from guidekit.builders.pandoc import build_with_pandoc
+from guidekit.commands import new_place
 from guidekit.services.chapter_service import create_chapter
 from guidekit.services.place_service import load_places
 
 app = typer.Typer(no_args_is_help=True, help="Build static guides from Markdown and YAML.")
 console = Console()
+
+
+@app.command("new-place")
+def new_place_command() -> None:
+    """Create a new place YAML record."""
+    new_place.run()
 
 
 @app.command("doctor")

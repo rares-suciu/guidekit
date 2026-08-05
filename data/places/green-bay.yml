@@ -1,0 +1,18 @@
+name: Green Bay
+type: beach
+region: Protaras
+coordinates:
+  latitude: 34.9955
+  longitude: 34.0734
+ratings:
+  family: 4
+  snorkeling: 5
+  photography: 4
+  parking: 4
+features:
+  snorkeling: true
+  turtles: true
+  underwater_sculptures: true
+best_time: ''
+estimated_visit: ''
+status: draft
