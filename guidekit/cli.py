@@ -11,6 +11,7 @@ from guidekit.builders.pandoc import build_with_pandoc
 from guidekit.commands import new_content, new_place
 from guidekit.services.chapter_service import create_chapter
 from guidekit.services.place_service import load_places
+from guidekit.services.search_service import search_places
 
 app = typer.Typer(no_args_is_help=True, help="Build static guides from Markdown and YAML.")
 console = Console()
@@ -92,3 +93,19 @@ def new_content_command(
 ) -> None:
     """Create a new content item."""
     new_content.run(content_type)
+
+
+@app.command("search")
+def search(
+    query: str = typer.Argument(..., help="Search text"),
+    places_dir: Path = Path("data/places"),
+) -> None:
+    """Search places."""
+    results = search_places(query, places_dir)
+
+    if not results:
+        console.print("[yellow]No results found.[/yellow]")
+        return
+
+    for place in results:
+        console.print(f"[green]{place.name}[/green] ({place.type}) - {place.region}")
