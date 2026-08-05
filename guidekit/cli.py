@@ -12,6 +12,7 @@ from guidekit.commands import new_content, new_place
 from guidekit.services.chapter_service import create_chapter
 from guidekit.services.place_service import load_places
 from guidekit.services.search_service import search_places
+from guidekit.services.stats_service import calculate_stats
 
 app = typer.Typer(no_args_is_help=True, help="Build static guides from Markdown and YAML.")
 console = Console()
@@ -109,3 +110,26 @@ def search(
 
     for place in results:
         console.print(f"[green]{place.name}[/green] ({place.type}) - {place.region}")
+
+
+@app.command("stats")
+def stats(
+    places_dir: Path = Path("data/places"),
+) -> None:
+    """Show guide statistics."""
+    result = calculate_stats(places_dir)
+
+    console.print("[bold]GuideKit Statistics[/bold]")
+    console.print(f"Places: {result['total']}")
+
+    console.print("\n[bold]By type:[/bold]")
+    for key, value in result["types"].items():
+        console.print(f"  {key}: {value}")
+
+    console.print("\n[bold]Features:[/bold]")
+    for key, value in result["features"].items():
+        console.print(f"  {key}: {value}")
+
+    console.print("\n[bold]Top rated:[/bold]")
+    for place in result["top_rated"]:
+        console.print(f"  {place.name}")
