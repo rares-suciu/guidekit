@@ -1,0 +1,17 @@
+name: "Cape Greco Hiking Adventure"
+type: activity
+region: "Cape Greco"
+duration: "3-4 hours"
+ratings:
+  family: 5
+  adventure: 4
+  photography: 5
+features:
+  hiking: true
+  cliffs: true
+  nature: true
+best_time: "Early morning"
+estimated_visit: "3-4 hours"
+notes:
+  - "Wear proper shoes"
+status: draft

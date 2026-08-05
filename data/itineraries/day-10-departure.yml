@@ -1,0 +1,16 @@
+name: "Day 10 - Departure"
+type: itinerary
+region: "Cyprus"
+duration: "Half day"
+theme:
+  - departure
+stops:
+  - "Breakfast"
+  - "Airport transfer"
+places: []
+activities:
+  - "Final photos"
+family_score: 4
+notes:
+  - "Leave buffer time"
+status: draft

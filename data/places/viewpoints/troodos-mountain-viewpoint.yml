@@ -1,0 +1,18 @@
+name: "Troodos Mountain Viewpoint"
+type: viewpoint
+region: "Troodos Mountains"
+coordinates:
+  latitude: 34.9370
+  longitude: 32.8650
+ratings:
+  family: 5
+  snorkeling: 0
+  photography: 5
+  parking: 5
+features:
+  mountain_views: true
+  nature: true
+  photography: true
+best_time: "Morning"
+estimated_visit: "1 hour"
+status: draft

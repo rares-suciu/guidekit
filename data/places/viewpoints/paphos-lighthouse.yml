@@ -1,0 +1,19 @@
+name: "Paphos Lighthouse"
+type: viewpoint
+region: "Paphos Harbour"
+coordinates:
+  latitude: 34.7567
+  longitude: 32.4057
+ratings:
+  family: 4
+  snorkeling: 1
+  photography: 5
+  parking: 3
+features:
+  history: true
+  sea_view: true
+  sunset: true
+  photography: true
+best_time: "16:00-18:30"
+estimated_visit: "1 hour"
+status: draft

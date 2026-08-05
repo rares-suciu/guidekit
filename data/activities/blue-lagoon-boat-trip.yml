@@ -1,0 +1,17 @@
+name: "Blue Lagoon Boat Trip"
+type: activity
+region: "Akamas Peninsula"
+duration: "Half day"
+ratings:
+  family: 5
+  adventure: 4
+  photography: 5
+features:
+  boat_trip: true
+  swimming: true
+  snorkeling: true
+best_time: "09:00-14:00"
+estimated_visit: "Half day"
+notes:
+  - "Check departure times before travel"
+status: draft

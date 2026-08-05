@@ -1,0 +1,17 @@
+name: "Snorkeling at Green Bay"
+type: activity
+region: "Protaras"
+duration: "2-3 hours"
+ratings:
+  family: 5
+  adventure: 3
+  photography: 5
+features:
+  snorkeling: true
+  marine_life: true
+  underwater_photography: true
+best_time: "08:00-11:00"
+estimated_visit: "2-3 hours"
+notes:
+  - "Bring masks and water shoes"
+status: draft

@@ -1,0 +1,19 @@
+name: "Troodos Village Tavern"
+type: restaurant
+region: "Troodos Mountains"
+coordinates:
+  latitude: 34.9100
+  longitude: 32.8800
+ratings:
+  family: 5
+  snorkeling: 0
+  photography: 4
+  parking: 5
+features:
+  traditional_cyprus: true
+  mountain_views: true
+  local_food: true
+  family_friendly: true
+best_time: "12:30–15:00"
+estimated_visit: "1–2 hours"
+status: draft

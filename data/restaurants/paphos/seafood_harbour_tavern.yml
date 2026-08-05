@@ -1,0 +1,18 @@
+name: "Paphos Harbour Seafood Tavern"
+type: restaurant
+region: "Paphos Harbour"
+coordinates:
+  latitude: 34.7550
+  longitude: 32.4070
+ratings:
+  family: 4
+  snorkeling: 0
+  photography: 5
+  parking: 3
+features:
+  seafood: true
+  sea_view: true
+  sunset: true
+best_time: "18:30-21:00"
+estimated_visit: "1-2 hours"
+status: draft

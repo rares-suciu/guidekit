@@ -1,0 +1,19 @@
+name: "Larnaca Salt Lake"
+type: viewpoint
+region: "Larnaca"
+coordinates:
+  latitude: 34.9000
+  longitude: 33.6200
+ratings:
+  family: 5
+  snorkeling: 0
+  photography: 5
+  parking: 4
+features:
+  flamingos: true
+  nature: true
+  photography: true
+sunset: true
+best_time: "Sunrise or sunset"
+estimated_visit: "1-2 hours"
+status: draft

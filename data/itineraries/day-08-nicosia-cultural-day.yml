@@ -1,0 +1,17 @@
+name: "Day 08 - Nicosia Cultural Day"
+type: itinerary
+region: "Nicosia"
+duration: "Full day"
+theme:
+  - culture
+  - history
+stops:
+  - "Old City"
+  - "Museums"
+places: []
+activities:
+  - "Walking tour"
+family_score: 4
+notes:
+  - "Unique divided capital experience"
+status: draft

@@ -1,0 +1,18 @@
+name: "Day 09 - Relaxation Family Day"
+type: itinerary
+region: "Protaras"
+duration: "Full day"
+theme:
+  - relaxation
+  - family
+stops:
+  - "Favorite beach revisit"
+places:
+  - "Fig Tree Bay"
+activities:
+  - "Swimming"
+  - "Family time"
+family_score: 5
+notes:
+  - "Keep flexible"
+status: draft

@@ -1,0 +1,19 @@
+name: "Petra tou Romiou (Aphrodite's Rock)"
+type: viewpoint
+region: "Paphos"
+coordinates:
+  latitude: 34.6642
+  longitude: 32.6270
+ratings:
+  family: 5
+  snorkeling: 2
+  photography: 5
+  parking: 4
+features:
+  mythology: true
+  sea_view: true
+  sunset: true
+  photography: true
+best_time: "17:00-19:30"
+estimated_visit: "1 hour"
+status: draft

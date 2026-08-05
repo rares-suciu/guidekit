@@ -1,0 +1,17 @@
+name: "Family Treasure Hunt"
+type: activity
+region: "Cyprus"
+duration: "Flexible"
+ratings:
+  family: 5
+  adventure: 4
+  photography: 4
+features:
+  children: true
+  exploration: true
+  games: true
+best_time: "Anytime"
+estimated_visit: "1-3 hours"
+notes:
+  - "Create missions for each location"
+status: draft

@@ -1,0 +1,17 @@
+name: "Cyprus Archaeology Exploration"
+type: activity
+region: "Cyprus"
+duration: "Half day"
+ratings:
+  family: 4
+  adventure: 2
+  photography: 5
+features:
+  history: true
+  culture: true
+  photography: true
+best_time: "Morning"
+estimated_visit: "Half day"
+notes:
+  - "Combine with Paphos day trip"
+status: draft

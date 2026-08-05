@@ -1,0 +1,16 @@
+name: "Sea Caves Exploration"
+type: activity
+region: "Cape Greco"
+duration: "1-2 hours"
+ratings:
+  family: 4
+  adventure: 3
+  photography: 5
+features:
+  sea_caves: true
+  photography: true
+best_time: "Late afternoon"
+estimated_visit: "1-2 hours"
+notes:
+  - "Excellent photo location"
+status: draft

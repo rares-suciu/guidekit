@@ -1,0 +1,17 @@
+name: "Snorkeling at Konnos Bay"
+type: activity
+region: "Cape Greco"
+duration: "3 hours"
+ratings:
+  family: 5
+  adventure: 4
+  photography: 5
+features:
+  snorkeling: true
+  clear_water: true
+  caves: true
+best_time: "08:30-11:30"
+estimated_visit: "3 hours"
+notes:
+  - "One of the best family snorkeling locations"
+status: draft

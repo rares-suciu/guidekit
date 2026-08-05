@@ -1,34 +1,20 @@
-name: "Day 03 - Ayia Napa Beach Adventure"
+name: "Day 03 - Ayia Napa Beaches"
 type: itinerary
 region: "Ayia Napa"
-
 duration: "Full day"
-
 theme:
   - beaches
-  - swimming
-  - relaxation
   - family
-
 stops:
   - "Makronissos Beach"
   - "Nissi Beach"
-  - "Ayia Napa Harbour"
-
 places:
   - "Makronissos Beach"
   - "Nissi Beach"
-
 activities:
   - "Swimming"
   - "Beach games"
-  - "Photography"
-  - "Ice cream stop"
-
 family_score: 5
-
 notes:
-  - "Best relaxed beach day"
-  - "Suitable after an active Cape Greco day"
-
+  - "Relaxed beach day"
 status: draft

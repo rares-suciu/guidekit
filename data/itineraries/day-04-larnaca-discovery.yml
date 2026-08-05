@@ -1,0 +1,19 @@
+name: "Day 04 - Larnaca Discovery"
+type: itinerary
+region: "Larnaca"
+duration: "Full day"
+theme:
+  - culture
+  - seaside
+stops:
+  - "Larnaca Salt Lake"
+  - "Finikoudes"
+  - "Old Town"
+places: []
+activities:
+  - "Walking"
+  - "Photography"
+family_score: 4
+notes:
+  - "Easy city exploration day"
+status: draft

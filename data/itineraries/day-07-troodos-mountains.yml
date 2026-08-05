@@ -1,0 +1,18 @@
+name: "Day 07 - Troodos Mountains"
+type: itinerary
+region: "Troodos"
+duration: "Full day"
+theme:
+  - mountains
+  - villages
+stops:
+  - "Mountain villages"
+  - "Local tavern"
+places: []
+activities:
+  - "Village walks"
+  - "Traditional food"
+family_score: 5
+notes:
+  - "Different side of Cyprus"
+status: draft

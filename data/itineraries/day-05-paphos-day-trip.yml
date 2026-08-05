@@ -1,0 +1,19 @@
+name: "Day 05 - Paphos Day Trip"
+type: itinerary
+region: "Paphos"
+duration: "Full day"
+theme:
+  - history
+  - beaches
+stops:
+  - "Coral Bay"
+  - "Paphos Harbour"
+places:
+  - "Coral Bay"
+activities:
+  - "Archaeology"
+  - "Swimming"
+family_score: 5
+notes:
+  - "Long driving day"
+status: draft

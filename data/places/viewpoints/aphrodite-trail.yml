@@ -1,0 +1,19 @@
+name: "Aphrodite Trail"
+type: viewpoint
+region: "Akamas Peninsula"
+coordinates:
+  latitude: 35.0360
+  longitude: 32.3490
+ratings:
+  family: 4
+  snorkeling: 0
+  photography: 5
+  parking: 4
+features:
+  hiking: true
+  nature: true
+  viewpoints: true
+  photography: true
+best_time: "08:00-12:00"
+estimated_visit: "3-4 hours"
+status: draft

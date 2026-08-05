@@ -1,32 +1,20 @@
 name: "Day 01 - Arrival in Protaras"
 type: itinerary
 region: "Protaras"
-
 duration: "Half day"
-
 theme:
   - arrival
   - relaxation
-  - first-cyprus-experience
-
 stops:
   - "Airport transfer"
-  - "Check-in"
+  - "Hotel check-in"
   - "Fig Tree Bay sunset"
-  - "First Cypriot dinner"
-
 places:
   - "Fig Tree Bay"
-
 activities:
   - "Swimming"
   - "Sunset photography"
-  - "Local food discovery"
-
 family_score: 5
-
 notes:
   - "Keep the first day relaxed after travel"
-  - "Good introduction to the area"
-
 status: draft

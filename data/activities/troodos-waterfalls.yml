@@ -1,0 +1,17 @@
+name: "Troodos Waterfalls"
+type: activity
+region: "Troodos Mountains"
+duration: "Half day"
+ratings:
+  family: 5
+  adventure: 3
+  photography: 5
+features:
+  hiking: true
+  nature: true
+  waterfalls: true
+best_time: "Morning"
+estimated_visit: "Half day"
+notes:
+  - "Cooler mountain weather"
+status: draft

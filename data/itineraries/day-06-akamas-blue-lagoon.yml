@@ -1,0 +1,20 @@
+name: "Day 06 - Akamas and Blue Lagoon"
+type: itinerary
+region: "Akamas Peninsula"
+duration: "Full day"
+theme:
+  - nature
+  - snorkeling
+stops:
+  - "Blue Lagoon"
+  - "Akamas Peninsula"
+places:
+  - "Blue Lagoon"
+activities:
+  - "Boat trip"
+  - "Swimming"
+  - "Snorkeling"
+family_score: 5
+notes:
+  - "Check boat schedules"
+status: draft

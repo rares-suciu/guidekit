@@ -1,0 +1,26 @@
+name: "Day 02 - Cape Greco Adventure"
+type: itinerary
+region: "Cape Greco"
+duration: "Full day"
+theme:
+  - nature
+  - snorkeling
+  - adventure
+stops:
+  - "Cape Greco National Park"
+  - "Sea Caves"
+  - "Konnos Bay"
+  - "Green Bay"
+places:
+  - "Cape Greco National Park"
+  - "Cape Greco Sea Caves"
+  - "Konnos Bay"
+  - "Green Bay"
+activities:
+  - "Hiking"
+  - "Snorkeling"
+  - "Photography"
+family_score: 5
+notes:
+  - "Start early"
+status: draft
