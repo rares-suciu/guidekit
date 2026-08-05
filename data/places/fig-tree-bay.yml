@@ -1,0 +1,17 @@
+name: "Fig Tree Bay"
+type: "beach"
+region: "Protaras"
+coordinates:
+  latitude: 35.0129
+  longitude: 34.0587
+ratings:
+  family: 5
+  snorkeling: 4
+  photography: 5
+  parking: 4
+features:
+  sandy_beach: true
+  sunrise: true
+best_time: "08:00–11:00"
+estimated_visit: "2–4 hours"
+status: "draft"

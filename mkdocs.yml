@@ -1,0 +1,15 @@
+site_name: Cyprus 2026 – The Adventure Edition
+site_description: A family travel guide for Cyprus
+docs_dir: book
+site_dir: site
+
+theme:
+  name: material
+plugins:
+  - search
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - pymdownx.details
+  - pymdownx.superfences
